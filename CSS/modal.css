@@ -183,7 +183,7 @@ body {
     cursor: pointer;
 }
 
-.button a{
+.button button{
     font-family: Rubik, sans-serif;
     text-decoration: none;
     display: block;
