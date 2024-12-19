@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>modal</title>
+    <link rel="stylesheet" href="/CSS/modal.css">
+    <link rel="stylesheet" href="/CSS/modaladapt.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="heading">
+            <h1>Разработка веб-приложения</h1>
+            <h2>Заполните форму и мы обязательно свяжемся с вами <br> в ближайшее время для уточнения деталей</h2>
+        </div>
+
+        <form class="form" id="myForm">
+            <div class="nametag">
+                <label for="">КАК ВАС ЗОВУТ</label>
+                <input type="text" id="nametag" placeholder="ВВЕДИТЕ ВАШЕ ИМЯ">
+            </div>
+            <div class="email">
+                <label for="">ВАШ EMAIL</label>
+                <input type="email" id="email" placeholder="test@email.ru">
+            </div>
+            <div class="number">
+                <label for="">ТЕЛЕФОН</label>
+                <input type="tel" id="number" placeholder="8-777-777-77-77" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            </div>
+            <div class="country">
+                <label for="">СТРАНА</label>
+                <select name="" id="country">
+                    <option value="" selected>ВЫБЕРИТЕ СТРАНУ</option>
+                    <option value="">РОССИЯ</option>
+                    <option value="">АНГЛИЯ</option>
+                    <option value="">КИТАЙ</option>
+                    <option value="">ГЕРМАНИЯ</option>
+                </select>
+            </div>
+            <div class="date">
+                <label for="">ДАТА</label>
+                <input id="date" type="date">
+            </div>
+            <div class="comment">
+                <label for="">КОММЕНТАРИЙ</label>
+                <textarea name="" id="comment"></textarea>
+            </div>
+            
+            <div class="checkbox">
+                <input id="check" type="checkbox" required>
+                <label for="">СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ</label>
+            </div>
+            <div class="button">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+    <script src="11.js"></script>
+</body>
+</html>

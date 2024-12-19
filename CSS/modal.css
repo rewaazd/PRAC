@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 30, 31);
+}
+
+.modal {
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.heading h1 {
+    font-family: Rubik, sans-serif;
+    font-size: 22px;
+    margin: 40px auto 15px auto;
+    text-align: center;
+    color: #222222  ;
+}
+
+.heading h2 {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    margin: 10px 10px 10px 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+}
+
+.form {
+    padding: 35px 50px 35px 50px;
+}
+
+.nametag label {
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nametag input {
+    text-align: center;
+    font-family: Rubik, sans-serif;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 13px;
+    outline: transparent;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.email label {
+    display: block;
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.email input {
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    outline: transparent;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+}
+
+.number label {
+    display: block;
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.number input {
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    outline: transparent;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+}
+
+.country label {
+    display: block;
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.country select {
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #666;
+    border: none;
+    border-radius: 5px;
+    outline: transparent;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+}
+
+.date label {
+    display: block;
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.date input {
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: none;
+    color: #666;
+    border-radius: 5px;
+    outline: transparent;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+}
+
+.comment label {
+    display: block;
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.comment textarea{
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: none;
+    color: #666;
+    border-radius: 5px;
+    outline: transparent;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+}
+
+.checkbox label {
+    font-family: Rubik, sans-serif;
+    color: #666;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.checkbox {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.checkbox input {
+    cursor: pointer;
+}
+
+.button a{
+    font-family: Rubik, sans-serif;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 16px 0px;
+    color: white;
+    background-color: rgb(22, 102, 241);
+}

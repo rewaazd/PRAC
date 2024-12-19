@@ -1,0 +1,101 @@
+@media screen and (max-width: 1200px) {
+    .modal-window {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .image {
+        display: none;
+    }
+    .navbar ul {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 20px 50px;
+        margin: 20px 20px 20px 20px;
+    }
+    .navbar ul li a{
+        margin: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .image {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .navbar ul li a{
+        font-size: 12px;
+    }
+    .leftside {
+        width: 20%;
+    }
+
+    th {
+        font-size: 12px;
+    }
+    .textleftside h4{
+        font-size: 14px;
+    }
+    .textleftside a {
+
+        font-size: 12px;
+    }
+    .textleftside {
+        margin: 10px 0 0 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+    .pdf object {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:490px){
+
+    .navbar ul {
+        display: block;
+        justify-content: left;
+        align-items: center;
+        list-style-type: none;
+        gap: 20px 20px;
+        margin: 20px 20px 20px 20px;
+    }
+    .textleftside h4{
+        font-size: 12px;
+    }
+    .textleftside a {
+
+        font-size: 10px;
+    }
+    .textleftside {
+        margin: 5px 0 0 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+    .pdf object {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+}

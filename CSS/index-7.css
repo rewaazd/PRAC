@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(31, 30, 31);
+}
+header {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo p{
+    margin-top: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #dadada;
+}
+.square  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h3, .heading h4 {
+    font-family: Montserrat, sans-serif;
+    color: #dadada;
+}
+
+
+
+.navbar {
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px 50px;
+    margin: 20px 20px 20px 30px;
+}
+
+
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 16px;
+    transition: all 0.3s;
+    align-items: center;    
+    justify-content: center;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(224, 224, 224);
+}
+
+.navbar ul li a:hover{
+    opacity: .8;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+
+
+.leftside {
+    width: 30%;
+    border-right: 1px solid rgb(179, 179, 179);
+}
+
+.textleftside {
+    margin: 20px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textleftside h4{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 5px;
+    color: #dadada;
+}
+.textleftside a {
+    text-decoration: none;
+    color: #dadada;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.midside {
+    width: 75%;
+}
+
+.firstblockmidside h2{
+    color: #dadada;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+
+
+
+
+.secondblockmidside h3 {
+    color: #dadada;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+
+
+.thirdblockmidside h3 {
+    color: #dadada;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+
+/* table */
+
+.tableone {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.tabletwo {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.tableone{
+    background-color: rgb(218, 218, 218);
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
+}
+
+.trone {
+    background-color: rgb(147, 147, 147);
+}
+
+.tabletwo{
+    background-color: rgb(218, 218, 218);
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
+}
+
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+.map {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    justify-content: center;
+}
+iframe {
+    width: 50%;
+    margin: 20px;
+    height: 500px;
+}
+
+.pdf {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    justify-content: center;
+}
+
+.pdf object {
+    width: 50%;
+    margin: 20px;
+    height: 300px;
+}
+
+
+.video {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    justify-content: center;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+
+.by h3{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: #dadada;
+}
+
+
+
+.socials ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+    margin: 20px 30px 0 0;
+}
+
+.socials ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #dadada;
+    transition: all .3s;
+}
+
+.socials ul li a:hover{
+    opacity: .8;
+}
+
+
+.buttonup i{
+    text-align: center;
+    justify-content: center;
+    transform: rotate(-90deg);
+}
+
+.buttonup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonup a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #dadada;
+    transition: all .3s;
+}
